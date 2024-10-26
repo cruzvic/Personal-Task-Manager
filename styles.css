@@ -7,4 +7,20 @@
 .nav-bar {
     height: fit-content;
     display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #f6feffdd;
+    position: sticky;
+    top: 0;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.profile-link:hover {
+    color: #00eeff;
 }
