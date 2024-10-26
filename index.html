@@ -11,7 +11,27 @@
             <div>
                 <a href="index.html"><img src="images/logo.jpg" alt="Logo for the moment" class="logo"></a>
             </div>
-            <a href="profile.html" class="profile-link">Profile</a>
+            <a href="#" class="profile-link" id="auth-link" onclick="toggleAuthPopUp()">Profile</a>
         </nav>
+
+        <div id="auth-popup" class="auth-popup">
+            <div class="auth-content">
+                <span class="close-btn" onclick="toggleAuthPopup()">&times;</span>
+                <h2>Login / Register</h2>
+                <form id="auth-form">
+                    <input type="text" id="username" placeholder="Username" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+
+        <div class="tasks-container">
+            <h1>Task 1</h1>
+            <h3>Date</h3>
+            <h3>Comment</h3>
+        </div>
     </body>
 </html>
